@@ -70,7 +70,7 @@ const Header = () => {
 
             <nav className="bg-color-09">
                 <div className="container flex items-center">
-                    <div onMouseMove={() => setOpenMenuCategories(true)} onMouseLeave={() => setOpenMenuCategories(false)} className="relative flex gap-4">
+                    <div onMouseMove={() => setOpenMenuCategories(true)} onMouseLeave={() => setOpenMenuCategories(false)} className="relative flex gap-4 z-[10]">
                         <button>
                             <i className="fa-solid fa-bars-staggered"></i>
                         </button>
@@ -109,7 +109,7 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" className="hover:text-color-01">
+                            <NavLink to="/our-store" className="hover:text-color-01">
                                 OUR STORE
                             </NavLink>
                         </li>

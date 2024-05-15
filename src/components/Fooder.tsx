@@ -148,7 +148,7 @@ const Fooder = () => {
                     <img className="bg-white rounded-md w-[50px] h-[28px] object-cover" src="../images/visa.png" alt="" />
                 </div>
             </div>
-            <button onClick={() => scrollToTop()} className="w-[37px] h-[37px] rounded-full bg-color-01 flex items-center justify-center text-black fixed right-12 bottom-12">
+            <button onClick={() => scrollToTop()} className="w-[37px] h-[37px] z-[9999] rounded-full bg-color-01 flex items-center justify-center text-black fixed right-12 bottom-12">
                 <i className="fa-solid fa-angle-up"></i>
             </button>
         </footer>

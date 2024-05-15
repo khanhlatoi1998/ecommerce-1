@@ -5,9 +5,9 @@ import './style/global.scss';
 import './style/custom.scss';
 import './style/loading.scss';
 // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
 import App from './App';
