@@ -114,7 +114,7 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/" className="hover:text-color-01">
+                            <NavLink to="/blogs" className="hover:text-color-01">
                                 BGLOS
                             </NavLink>
                         </li>

@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import ItemProduct from "./ItemProduct";
 
 const FeaturedColection = () => {
     const clickPrev = () => {
@@ -42,30 +43,7 @@ const FeaturedColection = () => {
                     [1, 1, 1, 1, 1, 1, 1, 1].map((el: any, idx: any) => {
                         return (
                             <SwiperSlide key={idx}>
-                                <NavLink to="" className="block shadow-shadow-1 rounded-md p-4 bg-white h-full group">
-                                    <div className="flex items-center justify-between">
-                                        <span className="px-2 py-1 bg-color-01 rounded-full">-33%</span>
-                                        <i className="fa-regular fa-heart hover:text-color-03 cursor-pointer p-1"></i>
-                                    </div>
-                                    <figure className="py-4 flex items-center justify-center bg-white">
-                                        <img className="max-w-[80%]" src="../images/products/iphone-15-pro-max_3.png" alt="" />
-                                    </figure>
-                                    <div className="flex flex-col gap-2">
-                                        <p className="text-color-05">Samsung</p>
-                                        <p className="font-medium h-[45px] group-hover:text-blue-500">OPPO Reno10 5G 128GB</p>
-                                        <span className="flex-item-center">
-                                            <i className="fa-solid fa-star text-yellow-300"></i>
-                                            <i className="fa-solid fa-star text-yellow-300"></i>
-                                            <i className="fa-solid fa-star text-yellow-300"></i>
-                                            <i className="fa-solid fa-star text-yellow-300"></i>
-                                            <i className="fa-solid fa-star text-yellow-300"></i>
-                                        </span>
-                                        <div>
-                                            <span className="text-color-03">$500.000 </span>
-                                            <span className="line-through opacity-60"> $100.000</span>
-                                        </div>
-                                    </div>
-                                </NavLink>
+                                <ItemProduct />
                             </SwiperSlide>
 
                         )

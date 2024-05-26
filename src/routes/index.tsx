@@ -1,4 +1,5 @@
 import About from "../pages/About";
+import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
 import HomePage from "../pages/HomePage";
 import OurStore from "../pages/OurStore";
@@ -20,5 +21,9 @@ export const routes = [
     {
         path: "our-store",
         element: <OurStore />
+    },
+    {
+        path: "blogs",
+        element: <Blog />
     }
 ];

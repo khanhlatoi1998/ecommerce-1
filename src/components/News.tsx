@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import BlogCart from "./BlogCart";
 
 const News = () => {
     const clickPrev = () => {
@@ -53,19 +54,7 @@ const News = () => {
                         [1, 1, 1, 1, 1, 1, 1, 1].map((el: any, idx: any) => {
                             return (
                                 <SwiperSlide key={idx}>
-                                    <NavLink to="/" className="block bg-white rounded-md shadow-shadow-1 overflow-hidden">
-                                        <div className="w-full h-[180px]  overflow-hidden">
-                                            <img src="../images/news/news1.jpg" className="w-full h-full object-cover transition hover:scale-[1.04]" alt="" />
-                                        </div>
-                                        <div className="p-4 flex flex-col gap-y-2">
-                                            <p className="opacity-opacity-1">11 JUNE, 2022</p>
-                                            <p className="text-title-2 font-medium line-clamp-1 capitalize">nderstand what youre saying it's very go</p>
-                                            <p className="opacity-opacity-1 line-clamp-2">ddamn bro, thats a golden content. even tho sometimes i struggle to understand what youre saying it's very good to have you teaching us on yt, and you showed us that u care bout us when u said "its not about speed, so take ur time to learn it"</p>
-                                            <div>
-                                                <button className="p-4 py-2 mt-1 bg-color-09 text-white rounded-full hover:text-color-01">READ MORE</button>
-                                            </div>
-                                        </div>
-                                    </NavLink>
+                                    <BlogCart title="nderstand what youre saying it's very go" time="11 12 2024" desc={"ddamn bro, thats a golden content. even tho sometimes i struggle to understand what youre saying it's very good to have you teaching us on yt, and you showed us that u care bout us when u said its not about speed, so take ur time to learn it"} />
                                 </SwiperSlide>
                             )
                         })
