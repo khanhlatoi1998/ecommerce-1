@@ -44,7 +44,9 @@ $color-main: #080a1a;
 }
 
 .featuredcColection:hover,
-.featuredcColection {
+.featuredcColection,
+.youMayAldoLike:hover,
+.youMayAldoLike {
   .swiper-button-prev,
   .swiper-button-next {
     display: none !important;
@@ -70,4 +72,26 @@ $color-main: #080a1a;
     border-radius: 20px;
     box-shadow: -400px 0 0 400px $color-02;
   }
+}
+
+.imageZoom {
+  position: absolute;
+  // z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+  cursor: zoom-out;
+
+  --zoom-x: 100%;
+  --zoom-y: 100%;
+  transform: scale(1.5);
+  object-fit: fill;
+  pointer-events: none;
+  // clip-path: circle(100px at var(--zoom-x) var(--zoom-y));
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
 }

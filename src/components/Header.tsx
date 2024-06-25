@@ -47,15 +47,15 @@ const Header = () => {
                             <i className="fa-solid fa-repeat text-[27px]"></i>
                             Compare Products
                         </div>
-                        <div className="flex items-center gap-3">
+                        <NavLink to="wishlist" className="flex items-center gap-3">
                             <i className="fa-regular fa-heart text-[27px]"></i>
                             Favourite Wishlist
-                        </div>
-                        <div className="flex items-center gap-3">
+                        </NavLink>
+                        <NavLink to="login" className="flex items-center gap-3">
                             <i className="fa-regular fa-user text-[27px]"></i>
                             Log In My Account
-                        </div>
-                        <div className="flex items-center gap-3">
+                        </NavLink>
+                        <NavLink to="cart" className="flex items-center gap-3">
                             <span>
                                 <i className="fa-solid fa-cart-plus text-color-01 text-[27px]"></i>
                             </span>
@@ -63,7 +63,7 @@ const Header = () => {
                                 <span className="rounded-lg px-2 bg-[white] text-color-01 mb-1 text-center text-[13px]">10</span>
                                 <div>$0.00</div>
                             </div>
-                        </div>
+                        </NavLink>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="" className="hover:text-color-01">
+                            <NavLink to="/contact" className="hover:text-color-01">
                                 CONTACT
                             </NavLink>
                         </li>

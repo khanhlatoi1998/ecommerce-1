@@ -120,4 +120,4 @@ const ProductsTemplate = () => {
     );
 };
 
-export default ProductsTemplate
+export default ProductsTemplate;

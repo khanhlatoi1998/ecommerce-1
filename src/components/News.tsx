@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import BlogCart from "./BlogCart";
+import BlogCart from "./BlogItem";
 
 const News = () => {
     const clickPrev = () => {

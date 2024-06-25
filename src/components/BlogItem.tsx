@@ -11,7 +11,7 @@ const BlogCart: React.FC<Props> = ({
     title, time, _id, desc
 }) => {
     return (
-        <NavLink to="/" className="block bg-white rounded-md shadow-shadow-1 overflow-hidden">
+        <NavLink to="/id" className="block bg-white rounded-md shadow-shadow-1 overflow-hidden">
             <div className="w-full  overflow-hidden relative pt-[60%]">
                 <img src="../images/news/news1.jpg" className="w-full h-full absolute top-0 left-0 object-cover transition hover:scale-[1.04]" alt="" />
             </div>

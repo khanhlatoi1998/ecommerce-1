@@ -58,8 +58,8 @@ const FeaturedColection = () => {
                         <p className="text-title-1 font-medium">Smart Phone</p>
                         <p className="opacity-opacity-1">OPPO Reno10 5G 128GB</p>
                     </div>
-                    <div className="flex items-center justify-center mt-8">
-                        <img src="../images/products/iphone-15-pro-max_3.png" className="max-w-[90%]" alt="" />
+                    <div className="mt-8 relative pt-[90%]">
+                        <img src="../images/products/iphone-15-pro-max_3.png" className="max-w-[90%] h-full absolute top-[50%] left-[50%] object-fill translate-y-[-50%] translate-x-[-50%]" alt="" />
                     </div>
                 </div>
                 <div className="bg-white shadow-shadow-1 rounded-md px-4 py-8 hover:bg-black cursor-pointer group">
@@ -68,8 +68,8 @@ const FeaturedColection = () => {
                         <p className="text-title-1 font-medium">Smart Phone</p>
                         <p className="opacity-opacity-1">OPPO Reno10 5G 128GB</p>
                     </div>
-                    <div className="flex items-center justify-center mt-8">
-                        <img src="../images/products/iphone-15-pro-max_3.png" className="max-w-[90%]" alt="" />
+                    <div className="mt-8 relative pt-[90%]">
+                        <img src="../images/products/iphone-15-pro-max_3.png" className="max-w-[90%] h-full absolute top-[50%] left-[50%] object-fill translate-y-[-50%] translate-x-[-50%]" alt="" />
                     </div>
                 </div>
                 <div className="bg-white shadow-shadow-1 rounded-md px-4 py-8 hover:bg-black cursor-pointer group">
@@ -78,8 +78,8 @@ const FeaturedColection = () => {
                         <p className="text-title-1 font-medium">Smart Phone</p>
                         <p className="opacity-opacity-1">OPPO Reno10 5G 128GB</p>
                     </div>
-                    <div className="flex items-center justify-center mt-8">
-                        <img src="../images/products/iphone-15-pro-max_3.png" className="max-w-[90%]" alt="" />
+                    <div className="mt-8 relative pt-[90%]">
+                        <img src="../images/products/iphone-15-pro-max_3.png" className="max-w-[90%] h-full absolute top-[50%] left-[50%] object-fill translate-y-[-50%] translate-x-[-50%]" alt="" />
                     </div>
                 </div>
                 <div className="bg-white shadow-shadow-1 rounded-md px-4 py-8 hover:bg-black cursor-pointer group">
@@ -88,8 +88,8 @@ const FeaturedColection = () => {
                         <p className="text-title-1 font-medium">Smart Phone</p>
                         <p className="opacity-opacity-1">OPPO Reno10 5G 128GB</p>
                     </div>
-                    <div className="flex items-center justify-center mt-8 object-cover bg-white">
-                        <img src="../images/products/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80.png" className="max-w-[90%]" alt="" />
+                    <div className="mt-8 relative pt-[90%] object-cover bg-white">
+                        <img src="../images/products/gia-treo-man-hinh-may-tinh-north-bayou-nb-f80.png" className="max-w-[90%] h-full absolute top-[50%] left-[50%] object-fill translate-y-[-50%] translate-x-[-50%]" alt="" />
                     </div>
                 </div>
             </div>

@@ -1,8 +1,9 @@
 import ReactPaginate from "react-paginate";
-import BlogCart from "../components/BlogCart";
+import BlogCart from "../components/BlogItem";
 import BreadCrumb from "../components/BreadCrumb";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const Blog = () => {
     const [selectedPage, setSelectedPage] = useState<number>(0);
@@ -16,7 +17,11 @@ const Blog = () => {
     };
     return (
         <div>
+            <Helmet>
+                <title>Blogs</title>
+            </Helmet>
             <BreadCrumb title="Blogs" />
+
             <div className="bg-color-04 p-4">
                 <div className="container">
                     <div className="flex gap-4">

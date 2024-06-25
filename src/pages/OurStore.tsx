@@ -4,6 +4,7 @@ import InfoProducts from "../components/InfoProduct";
 import ItemProduct from "../components/ItemProduct";
 import ReactPaginate from "react-paginate";
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 
 const OurStore = () => {
@@ -19,6 +20,10 @@ const OurStore = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Our Store</title>
+                <link rel="canonical" href="https://www.tacobell.com/" />
+            </Helmet>
             <BreadCrumb title="our store" />
 
             <div className="bg-color-04 p-4">
